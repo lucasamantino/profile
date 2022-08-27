@@ -28,7 +28,7 @@ var dino = {
 }
 
 var msgrs = [
-    {x:cnv.width,msg:"Chronus, web developer",spr:0,line:0,run:true},
+    {x:cnv.width,msg:"lucas amantino, web developer",spr:0,line:0,run:true},
     {x:cnv.width+200,msg:"Fullstack ",spr:0,line:1,run:true},
     {x:cnv.width*2,msg:" languages   ",spr:0,line:0,run:false,act:()=>{invert()}},
     {x:cnv.width*4,msg:" programmer five years ago ",spr:0,line:0,run:false,act:()=>{invert(true)}},
@@ -236,7 +236,7 @@ function restart(){
     dino.sal = 88;
     
     msgrs = [
-        {x:cnv.width,msg:"Chronus, web developer",spr:0,line:0,run:true},
+        {x:cnv.width,msg:"lucas amantino, web developer",spr:0,line:0,run:true},
         {x:cnv.width+200,msg:"Fullstack ",spr:0,line:1,run:true},
         {x:cnv.width*2,msg:" languages   ",spr:0,line:0,run:false,act:()=>{invert()}},
         {x:cnv.width*4,msg:" programmer five years ago ",spr:0,line:0,run:false,act:()=>{invert(true)}},
