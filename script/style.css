@@ -1,0 +1,65 @@
+@font-face {
+    font-family: f;
+    src: url('../resource/ft.ttf');
+}
+*{
+    user-select: none;
+    -webkit-user-drag: none;
+    margin: 0;
+    font-family: f;
+    color: rgb(54, 54, 54);
+}
+body{
+    overflow: hidden;
+}
+canvas{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    image-rendering: pixelated;
+}
+.start-inst{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    animation-name: pisc;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes pisc {
+    0%{
+        color: rgb(75, 75, 75);
+    }
+    50%{
+        color: rgb(167, 167, 167);
+    }
+    100%{
+        color: rgb(54, 54, 54);
+    }
+}
+.res-btn{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+@media (max-width: 600px){
+    canvas{
+        width: 200%;
+        height: 100%;
+        top: 50%;
+        transform: translate(0,-50%);
+    }
+}
+@media (max-width: 400px){
+    canvas{
+        width: 200%;
+        height: 50%;
+        top: 50%;
+        transform: translate(0,-50%);
+    }
+}
