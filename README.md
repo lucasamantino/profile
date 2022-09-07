@@ -1,1 +1,1 @@
-<a href='https://lucasamantino.github.io/profile'>👀</a> <- click
+<a href='https://lucasamantino.github.io/profile'>View</a>
